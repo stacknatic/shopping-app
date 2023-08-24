@@ -1,0 +1,19 @@
+.products-container{
+  display: flex;
+  
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+h1{
+  font-size: 1.3rem;
+}
+.product-card{
+  width: 245px;
+  height: auto;
+  border: 1px solid gray;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 5px;
+
+}
+
