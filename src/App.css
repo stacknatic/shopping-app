@@ -1,19 +1,21 @@
-.products-container{
-  display: flex;
-  
-  flex-wrap: wrap;
-  gap: 1rem;
+.App {
+  text-align: center;
+}
+
+.centered-text{
+  margin: auto;
 }
 h1{
-  font-size: 1.3rem;
+  color: #fff;
 }
-.product-card{
-  width: 245px;
-  height: auto;
-  border: 1px solid gray;
-  padding: 1rem;
-  margin: 1rem;
-  border-radius: 5px;
 
+body{
+  background: rgb(89,32,106);
+  background: linear-gradient(90deg, rgba(89,32,106,1) 0%, rgba(11,5,61,1) 0%, rgba(23,56,142,1) 100%); 
 }
+
+.rating svg{
+  color: orange;
+}
+
 
